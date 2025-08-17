@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
 func main() {
@@ -18,49 +17,15 @@ func main() {
 
 	// types()
 
-	testIf()
-	testIfElse()
-	testSwitch()
-}
+	// testIf()
+	// testIfElse()
+	// testSwitch()
 
-func testIf() {
-	i := 7
-	if i == 7 {
-		fmt.Println("i is 7")
-	}
-}
+	// testArray1()
+	// testArray2()
+	// testArray3()
+	// testArray4()
+	// testArray5()
+	// testArray6()
 
-func testIfElse() {
-	points := 6000
-
-	if points < 5000 {
-		fmt.Println("Your points is less than 5000")
-	} else if points < 10000 {
-		fmt.Println("Your points is more than 1000")
-	} else {
-		fmt.Println("Your points is another")
-	}
-}
-
-func testSwitch() {
-	weekend := time.Now().Weekday()
-
-	switch weekend {
-	case 1:
-		fmt.Println("Monday")
-	case 2:
-		fmt.Println("Tuesday")
-	case 3:
-		fmt.Println("Wednesday")
-	case 4:
-		fmt.Println("Thursday")
-	case 5:
-		fmt.Println("Friday")
-	case 6:
-		fmt.Println("Saturday")
-	case 0:
-		fmt.Println("Sunday")
-	default:
-		fmt.Println("XATO")
-	}
 }
