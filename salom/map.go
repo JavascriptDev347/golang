@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-func main() {
-	fmt.Println("Hello World")
+func Map() {
 
 	statuses := make(map[string]int)
 
