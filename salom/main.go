@@ -1,11 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
+import ()
 
+// Goroutinelar haqida
 
 func main() {
-	fmt.Println("Hello World")
 
 }
