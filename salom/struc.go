@@ -2,6 +2,17 @@ package main
 
 import "fmt"
 
+type Car struct {
+	Model  string
+	Color  string
+	Engine engine
+}
+
+type engine struct {
+	brand string
+	ph    int
+}
+
 func structLesson() {
 	var cars [2]Car
 
