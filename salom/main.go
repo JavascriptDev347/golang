@@ -2,8 +2,7 @@ package main
 
 import ()
 
-// Goroutinelar haqida
-
+// Waitgroup haqida
 func main() {
 
 }
