@@ -2,7 +2,7 @@ package main
 
 import ()
 
-// Waitgroup haqida
+// channel => go routinela aloqasi uchun
 func main() {
 
 }
